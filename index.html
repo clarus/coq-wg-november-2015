@@ -38,7 +38,7 @@
 				<section>
 					<h2>Problem</h2>
 					<ul>
-						<li>&gt; <a href="https://github.com/search?utf8=%E2%9C%93&q=language%3ACoq">1.000 Coq projects</a> on GitHub &#x2714;</li>
+						<li><a href="https://github.com/search?utf8=%E2%9C%93&q=language%3ACoq">&gt; 1.000 Coq projects</a> on GitHub &#x2714;</li>
 						<li>hard to install &#x2718;</li>
 						<li>limited code reuse &#x2718;</li>
 					</ul>
@@ -64,9 +64,10 @@
 				<section>
 					<h2>Tools</h2>
 					<ul>
-						<li>the <code>opam</code> command</li>
-						<li>the <a href="http://coq.io/opam/">OPAM website</a> (written in Coq)</li>
-						<li>the <a href="https://coq-bench.github.io/">OPAM bench</a></li>
+						<li>the <code>opam</code> command (in OCaml)</li>
+						<li><a href="http://coq.io/opam/">website</a> (in Coq)</li>
+						<li><a href="https://coq.inria.fr/opam/www/archive.html">website for distributions</a> (in Lua)</li>
+						<li><a href="https://coq-bench.github.io/">OPAM bench</a> (in Ruby)</li>
 					</ul>
 				</section>
 
@@ -75,12 +76,13 @@
 				</section>
 
 				<section>
-					<h2>My thought</h2>
-					<p>Package managers are <em>not</em> our business.</p>
+					<h2>Personal thought</h2>
+					<p>Package managers are not our job.</p>
 					<ul>
-						<li>do not innovate</li>
-						<li>reuse what exists</li>
+						<li>we should not innovate</li>
+						<li>we should use what exists</li>
 					</ul>
+					<p><small><em>Else we will feel like PHP guys inventing a type system.</em></small></p>
 				</section>
 
 				<section>
@@ -89,8 +91,8 @@
 						<li>do nothing?</li>
 						<li>pin?</li>
 						<li>switch?</li>
-						<li>constraints in a virtual package?</li>
-						<li>separated repositories?</li>
+						<li>virtual package?</li>
+						<li>separate repositories?</li>
 					</ul>
 				</section>
 
@@ -99,9 +101,53 @@
 					<ul>
 						<li>many repositories</li>
 						<li>one version per package</li>
-						<li><code>opam coq</code> command</li>
+						<li>command <code>opam coq</code></li>
 					</ul>
 					<p>Status?</p>
+				</section>
+
+				<section>
+					<h2>Naming</h2>
+					<ul>
+						<li>replace <code>:</code> by <code>-</code> for Windows</li>
+						<li>other changes?</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Windows support</h2>
+					<p>Probably for the next OPAM release.</p>
+					<ul>
+						<li>when?</li>
+						<li>can we help?</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Reviewing</h2>
+					<ul>
+						<li>Google, stars, blogs, ...</li>
+						<li>official selection?</li>
+						<li>OPAM conference?</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Search</h2>
+					<ul>
+						<li>Google, web index, <code>opam search</code></li>
+						<li>tags, categories?</li>
+						<li>more?</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Promote</h2>
+					<ul>
+						<li>add 1.000 GitHub projects (with approval)</li>
+						<li>documentation on the Coq website</li>
+					</ul>
+					<p>And <a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food">dogfooding</a>.</p>
 				</section>
 			</div>
 
